@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MouseController : MonoBehaviour
 {
-    public float sensitivity = 100f;
+    public float sensitivity = 150f;
 
     public Transform playerBody;
 

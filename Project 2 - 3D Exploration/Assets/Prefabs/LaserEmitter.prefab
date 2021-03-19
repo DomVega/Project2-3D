@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 396004642554943311}
   - component: {fileID: 3661777836498983146}
   - component: {fileID: 1528348390503181344}
+  - component: {fileID: 1302683433500248286}
   m_Layer: 0
   m_Name: LaserEmitter
   m_TagString: Untagged
@@ -79,3 +80,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &1302683433500248286
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023782434947517941}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.14261764, y: 1.9905534, z: 0.06572288}
+  m_Center: {x: 0, y: 0, z: 0}

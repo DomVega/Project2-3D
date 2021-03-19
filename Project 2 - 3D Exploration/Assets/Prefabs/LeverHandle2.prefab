@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1147420950180369142}
   - component: {fileID: 5107584807400211637}
   - component: {fileID: 8453324739721421811}
+  - component: {fileID: 4881277232206325333}
   m_Layer: 0
   m_Name: LeverHandle2
   m_TagString: Untagged
@@ -79,3 +80,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &4881277232206325333
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391958928873960751}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.032431126, y: 0.026904002, z: 0.15385115}
+  m_Center: {x: -0.0006301403, y: 0.0022918358, z: -0.0060005784}

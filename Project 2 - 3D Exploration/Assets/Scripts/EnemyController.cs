@@ -48,11 +48,9 @@ public class EnemyController : MonoBehaviour
             }
         }
     }
-    
     //Checks if close to destination 
     public void Update()
     {
-        //transform.rotation = Quaternion.LookRotation(navMeshAgent.velocity,Vector3.up);
        if(traveling && navMeshAgent.remainingDistance <= 1.0f)
        {
            traveling = false;
@@ -89,10 +87,8 @@ public class EnemyController : MonoBehaviour
         {
             Vector3 targetVector = patrolPoints[currentPatrolIndex].transform.position;
             navMeshAgent.SetDestination(targetVector);
-            //transform.localRotation = Quaternion.LookRotation(targetVector);
             traveling = true;
         }
-        
     }
     
     //Selects a new patrol point in the available list but also with a small probability of moving forwards or backwards

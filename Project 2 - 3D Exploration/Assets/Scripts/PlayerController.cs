@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     public float moveSpeed;
     public float jumpStr = 4f;
+    public float lives = 3f;
 
     private Rigidbody rigidBody;
     private CapsuleCollider collider;

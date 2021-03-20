@@ -11,6 +11,10 @@ GameObject:
   - component: {fileID: 3171885006423554953}
   - component: {fileID: 1993712612735218732}
   - component: {fileID: 4345938761123397862}
+  - component: {fileID: 1322553825730726378}
+  - component: {fileID: 5141915292693457926}
+  - component: {fileID: 5513448576281787901}
+  - component: {fileID: 757012513308111712}
   m_Layer: 0
   m_Name: VaultFrame
   m_TagString: Untagged
@@ -79,3 +83,55 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &1322553825730726378
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2832513714244231475}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0718257, y: 0.041188717, z: 4}
+  m_Center: {x: 0, y: -1.4635236, z: 0}
+--- !u!65 &5141915292693457926
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2832513714244231475}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.18537712, y: 2.968236, z: 0.84318924}
+  m_Center: {x: 0.9432242, y: 0, z: 1.5784054}
+--- !u!65 &5513448576281787901
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2832513714244231475}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.20803833, y: 2.968236, z: 0.8540096}
+  m_Center: {x: 0.9318936, y: 0, z: -1.5729952}
+--- !u!65 &757012513308111712
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2832513714244231475}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1880908, y: 0.25219536, z: 4}
+  m_Center: {x: 0.9418676, y: -1.3580203, z: 0}

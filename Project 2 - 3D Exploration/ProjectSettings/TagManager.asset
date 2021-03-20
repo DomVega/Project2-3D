@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - LeverOne
+  - LeverTwo
+  - LeverThree
+  - Keypad
   layers:
   - Default
   - TransparentFX

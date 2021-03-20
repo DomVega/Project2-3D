@@ -3,7 +3,16 @@ guid: afbe9dba383ab8f4aa43ed2316725824
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - LeverOneUp: {instanceID: 0}
+  - LeverOneDown: {instanceID: 0}
+  - LazerDoorOne: {instanceID: 0}
+  - LeverTwoUp: {instanceID: 0}
+  - LeverTwoDown: {instanceID: 0}
+  - LazerDoorTwo: {instanceID: 0}
+  - LeverThreeUp: {instanceID: 0}
+  - LeverThreeDown: {instanceID: 0}
+  - LazerDoorThree: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

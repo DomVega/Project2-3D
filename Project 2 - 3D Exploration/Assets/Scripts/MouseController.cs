@@ -11,7 +11,7 @@ public class MouseController : MonoBehaviour
     float xRotation = 0f;
     void Start()
     {
-       Cursor.lockState = CursorLockMode.Locked;
+       //Cursor.lockState = CursorLockMode.Locked;
     }
  
     void LateUpdate()
@@ -24,12 +24,12 @@ public class MouseController : MonoBehaviour
         transform.localRotation = Quaternion.Euler(xRotation, 0, 0);
         playerBody.Rotate(Vector3.up * mouseX);
 
-        if(Input.GetKeyDown("escape"))
+        /*if(Input.GetKeyDown("escape"))
        {
            Cursor.lockState = CursorLockMode.None;
            Cursor.visible = true;
        }
-
+        */
     }
 
 }
